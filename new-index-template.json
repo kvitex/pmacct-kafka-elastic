@@ -1,0 +1,14 @@
+{
+    "mappings": {
+        "properties": {
+          "@timestamp": { "type": "date" },
+          "stamp_updated":  { "type": "date",
+                               "format": "yyyy-MM-dd HH:mm:ss"},
+          "stamp_inserted":  { "type": "date",
+                               "format": "yyyy-MM-dd HH:mm:ss"},
+          "bytes": { "type": "long" },
+          "packets": { "type": "long" },
+          "flows": { "type": "long" }
+        }
+    }
+  }

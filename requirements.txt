@@ -1,0 +1,5 @@
+prometheus_client
+kafka
+elasticsearch
+python-dotenv
+pytz
