@@ -26,7 +26,7 @@ elastic_index_template           = os.environ.get('ELASTIC_INDEX_TEMPLATE','new-
 elastic_max_samples_per_send     = int(os.environ.get('ELASTIC_MAX_SAMPLES_PER_SEND','1000'))
 elastic_max_time_to_send         = int(os.environ.get('ELASTC_MAX_TIME_TO_SEND','10'))
 prometheus_client_port           = int(os.environ.get('PROMETHEUS_CLIENT_PORT','9003'))
-timestmap_template               = os.environ.get('TIMESTAMP_TEMPLATE', '%Y-%m-%d %H:%M:%S')
+
 
 elastic_index_settings           = {
                                     "number_of_shards": 1,
